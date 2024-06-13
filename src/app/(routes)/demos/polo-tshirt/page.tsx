@@ -1,13 +1,13 @@
 "use client";
-import React, { useContext } from 'react'
-import image from "../../../../../public/1demo.png"
+import React  from 'react'
+import image from "../../../../../public/polo.png"
 import Image from 'next/image'
 import { Star } from 'lucide-react'
 import Link from 'next/link'
 import {useCookies} from "next-client-cookies"
 import { useRouter } from 'next/navigation';
 
-export default function Men_Shirt() {
+export default function Polo_TShirt() {
   // const {id} = useContext(UserInfo)
   const {push} = useRouter()
   const cookies = useCookies()
@@ -30,7 +30,7 @@ export default function Men_Shirt() {
         <Image src={image} alt='demoImage' className='w-1/2'/>
         <div className='w-1/2 flex flex-col gap-5'>
             <h4 className='text-xl sm:text-4xl font-bold'>$27.00-$29.00</h4>
-            <h3 className='text-xl sm:text-5xl font-bold'>Men TShirt</h3>
+            <h3 className='text-xl sm:text-5xl font-bold'>Polo TShirt</h3>
             <div className='flex gap-4'>
             <Star className='text-yellow-400'/>
             <span>4.9 Rating</span>
@@ -46,7 +46,7 @@ export default function Men_Shirt() {
             </div>
            <div className='flex gap-2'>
            <button  className='bg-gray-900 rounded-xl font-bold text-white p-6' onClick={handleClick}>Add to Card</button>
-           <Link href={'/demos/men-tshirt/3d'} className='bg-gray-100 rounded-xl font-bold text-black p-6'>Customize In 3d</Link>
+           <Link href={'/demos/polo-tshirt/3d'} className='bg-gray-100 rounded-xl font-bold text-black p-6'>Customize In 3d</Link>
            </div>
         </div>
     </div>

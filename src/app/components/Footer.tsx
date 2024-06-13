@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation'
 
 export default function Footer() {
   const path = usePathname()
-  if (path.startsWith("/demos/men-tshirt/3d") || path.startsWith("/demos/women-tshirt/3d")) {
+  if (path.startsWith("/demos/men-tshirt/3d") || path.startsWith("/demos/women-tshirt/3d") || path.startsWith('/demos/polo-tshirt/3d')) {
     return null;
   } 
   return (

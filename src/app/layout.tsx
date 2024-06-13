@@ -24,10 +24,10 @@ export default function RootLayout({
       <body className="bg-gray-100">
           <CookiesProvider>
         {/* <UserProvider> */}
-        <Navbar/>
+        {/* <Navbar/> */}
       {children}
       <Toaster />
-      <Footer/>
+      {/* <Footer/> */}
       {/* </UserProvider> */}
       </CookiesProvider>
       </body>

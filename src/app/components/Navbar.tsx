@@ -16,7 +16,7 @@ import {
 
 export default function Navbar() {
   const path = usePathname();
-  if (path.startsWith("/demos/men-tshirt/3d") || path.startsWith("/demos/women-tshirt/3d")) {
+  if (path.startsWith("/demos/men-tshirt/3d") || path.startsWith("/demos/women-tshirt/3d") || path.startsWith('/demos/polo-tshirt/3d')) {
     return null;
   } else {
     return (
