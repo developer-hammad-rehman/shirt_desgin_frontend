@@ -33,7 +33,7 @@ export default function Home() {
       </header>
   <div className='flex w-full h-screen'>
   <div className='flex flex-col h-full justify-center items-center gap-5 flex-1'>
-        <h1 className='text-black font-bold text-7xl'>Let's Do It.</h1>
+        <h1 className='text-black font-bold text-7xl'>Let&apos;s Do It.</h1>
         <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, hic? Nemo ipsa ipsum eligendi facere quos dolor animi magni, blanditiis, cum ullam, odio voluptatem rem doloremque et vitae quibusdam facilis.</p>
         <Link href={"/demos"} className='bg-black p-3 font-bold text-white'>Shop Now</Link>
       </div>
